@@ -6,7 +6,7 @@ void konwersja(int a[], int n, int p){
 	for(int i = 1; i<=n; i++){
 		dziesietny = dziesietny*p+a[i];
 	}
-	int x=8; //system liczby na ktory domyslnie ma program przekonwertowaæ
+	int x=8; //system liczby na ktory domyslnie ma program przekonwertowac
 	int m=1;
 	while(x<dziesietny){
 		m++;
@@ -26,11 +26,11 @@ void konwersja(int a[], int n, int p){
 
 int main(){
 	int a[]={3,2,1};
-	int n = 2; // potega (zale¿ne od wielkosci tablicy => jest to maksymalny indeks tablicy czyli d³ugoœæ liczby-1)
+	int n = 2; // potega (zalezna od wielkosci tablicy => jest to maksymalny indeks tablicy czyli dlugosc liczby-1)
 	int p = 4; // system liczbowy
 	konwersja(a, n, p);
 	cout<<endl;
-	// zapisywanie i wyswietlanie danych z tablicy
+	// zapisywanie i wyswietlanie danych z tablicy, powtÃ³rka
 	cout<<"------------------"<<endl;
 	
 	int ilosc;
