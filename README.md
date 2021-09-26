@@ -1,4 +1,4 @@
 # algorytmy
 Tu znajdziesz algorytmy z c++.
-Te krótkie jak i te dłuższe :P
+Te krótsze jak i te dłuższe :P
 Powodzenia!
