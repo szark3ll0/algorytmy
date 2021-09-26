@@ -6,7 +6,7 @@ void konwersja(int a[], int n, int p){
 	for(int i = 1; i<=n; i++){
 		dziesietny = dziesietny*p+a[i];
 	}
-	int x=8; //system liczbowy na ktory domyslnie ma program przekonwertowac
+	int x=8;
 	int m=1;
 	while(x<dziesietny){
 		m++;
