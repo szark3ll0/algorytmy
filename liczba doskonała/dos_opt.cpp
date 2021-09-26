@@ -6,7 +6,7 @@ bool doskonala(int a){
 		return false;
 	int d=2, suma=1;
 	cout<<"Dzielniki: 1 ";
-	for(d; d<a; d++){
+	for(d; d<=a/2; d++){
 		if(a%d==0){
 			cout<<d<<" ";
 			suma+=d;
