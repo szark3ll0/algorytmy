@@ -1,0 +1,7 @@
+bąbelkowe: 		O(n^2)
+kubełkowe: 		O(n)
+przez scalanie: 	O(nlog n)
+przez wstawianie: 	O(n^2)
+przez wybór: 		O(n^2)
+przez zliczanie: 	O(n)
+szybkie: 			O(n^2) lub O(nlog n)
